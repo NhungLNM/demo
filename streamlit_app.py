@@ -12,6 +12,25 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import plotly.express as px
 import streamlit as st
+import pandas as pd
+import os
+
+# Print current working directory
+print("Current Working Directory:", os.getcwd())
+
+# List files in the specified directory
+print("Files in Directory:", os.listdir('/mount/src/demo/'))
+
+# Define the path to the Excel file
+file_path = '/mount/src/demo/athlete_events.xlsx'
+
+# Check if the file exists and read it
+if os.path.exists(file_path):
+    athlete_events = pd.read_excel(file_path)
+    print("File read successfully.")
+else:
+    print(f"File not found: {file_path}")
+
 athlete_events = pd.read_excel(r'C:\Users\USER\Documents\athlete_events.xlsx')
 
 
