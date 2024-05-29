@@ -14,7 +14,7 @@ import plotly.express as px
 import streamlit as st
 import pandas as pd
 import os
-
+"C:\Users\USER\Documents\athlete_events.xlsx"
 # Print current working directory
 print("Current Working Directory:", os.getcwd())
 
@@ -22,7 +22,7 @@ print("Current Working Directory:", os.getcwd())
 print("Files in Directory:", os.listdir('/mount/src/demo/'))
 
 # Define the path to the Excel file
-file_path = '/mount/src/demo/athlete_events.xlsx'
+file_path = '/mount/src/Documents/athlete_events.xlsx'
 
 # Check if the file exists and read it
 if os.path.exists(file_path):
