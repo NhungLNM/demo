@@ -12,7 +12,8 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import plotly.express as px
 import streamlit as st
-athlete_events = pd.read_excel(r'Athlete_events.xlsx')
+athlete_events = pd.read_excel(r'C:\Users\USER\Documents\athlete_events.xlsx')
+
 
 
 # PLOT 1
