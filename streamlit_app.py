@@ -30,7 +30,7 @@ import streamlit as st
 import pandas as pd
 
 # Define the URL of the Excel file on GitHub
-file_url = "https://github.com/kimduyenn/Python/raw/main/Athlete_events.xlsx"
+file_url = "https://github.com/NhungLNM/demo/blob/main/athlete_events.xlsx"
 
 # Read the Excel file
 try:
