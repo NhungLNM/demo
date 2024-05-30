@@ -16,7 +16,7 @@ import os
 
 
 # Read the Excel file
-file_path = r"C:\Users\admin\OneDrive\文档\GitHub\Python\Athlete_events.xlsx"
+file_path = r"C:\Users\USER\Documents\athlete_events.xlsx"
 try:
     athlete_events = pd.read_excel(file_path)
 except FileNotFoundError as e:
