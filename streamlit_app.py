@@ -14,7 +14,8 @@ import plotly.express as px
 import streamlit as st
 import pandas as pd
 import os
-"C:\Users\USER\Documents\athlete_events.xlsx"
+path = r"C:\Users\USER\Documents\athlete_events.xlsx"
+
 # Print current working directory
 print("Current Working Directory:", os.getcwd())
 
